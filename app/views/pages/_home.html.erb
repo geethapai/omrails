@@ -1,0 +1,11 @@
+<% unless user_signed_in? %>
+	<div class="hero-unit">
+		<h1>The Ink Spot</h1>
+			<p>
+				Welcome to The Ink Spot! If you are a pen or pencil enthusiast, this is the perfect place to share your pen, pencil, ink and paper photo reviews. Share your writing tests with various kinds of ink, writing instruments and paper!
+			</p>
+			<p>
+				<%= link_to "Get Inky!", new_user_registration_path, class: "btn btn-primary btn large" %>
+			</p>
+	</div>
+<% end %>
