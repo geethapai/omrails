@@ -2,9 +2,12 @@
 /*$baseFontFamily: Oxygen;
 @import url(http://fonts.googleapis.com/css?family=Oxygen);*/
 
+
 $btnPrimaryBackground: dodgerblue;
-$navbarBackgroundHighlight: white;
-$navbarBackground: white;
+$navbarBackgroundHighlight: #34495E;
+$navbarBackground: #34495E;
+$navbarLinkColor: #16A085;
+$navbarLinkColorHover: white;
 
 @import 'bootstrap';
 
